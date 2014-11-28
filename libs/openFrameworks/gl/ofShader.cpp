@@ -505,7 +505,7 @@ void ofShader::begin()  const{
 			renderer->beginCustomShader(*this);
 		}
 	}else{
-		ofLogError("ofShader") << "begin(): couldn't begin, shader not loaded";
+//		ofLogError("ofShader") << "begin(): couldn't begin, shader not loaded";
 	}
 }
 
